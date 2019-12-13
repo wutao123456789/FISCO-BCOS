@@ -1,0 +1,10 @@
+info|2019-10-24 21:30:49.047064|[INITIALIZER][initGlobalConfig],enableCompress=true,compatibilityVersion=2.1.0,versionNumber=33619968,chainId=1
+error|2019-10-24 21:30:49.073862|[INITIALIZER][P2PInitializer]initConfig for P2PInitializer failed,check Port=30300,EINFO=Throw location unknown (consider using BOOST_THROW_EXCEPTION)
+Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >
+std::exception::what: bind: Address already in use
+
+info|2019-10-24 21:30:55.367674|[INITIALIZER][initGlobalConfig],enableCompress=true,compatibilityVersion=2.1.0,versionNumber=33619968,chainId=1
+error|2019-10-24 21:30:55.396733|[INITIALIZER][P2PInitializer]initConfig for P2PInitializer failed,check Port=30300,EINFO=Throw location unknown (consider using BOOST_THROW_EXCEPTION)
+Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >
+std::exception::what: bind: Address already in use
+

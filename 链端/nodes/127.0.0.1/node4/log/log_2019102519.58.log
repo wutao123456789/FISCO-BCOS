@@ -1,0 +1,89 @@
+info|2019-10-25 19:58:32.367261|[INITIALIZER][initGlobalConfig],enableCompress=true,compatibilityVersion=2.1.0,versionNumber=33619968,chainId=1
+info|2019-10-25 19:58:32.585883|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-10-25 19:58:32.586183|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30400
+info|2019-10-25 19:58:32.622781|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-10-25 19:58:32.622871|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30302
+info|2019-10-25 19:58:32.622911|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30303
+info|2019-10-25 19:58:32.622943|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30400
+info|2019-10-25 19:58:32.622972|[P2P][Service] heartBeat,connected count=0
+info|2019-10-25 19:58:32.636525|[CHANNEL]ChannelRPCServer started
+info|2019-10-25 19:58:32.636552|[INITIALIZER][RPCInitializer]ChannelRPCHttpServer started.
+info|2019-10-25 19:58:32.636570|[LedgerInitializer],groupConfigPath=conf/
+info|2019-10-25 19:58:32.694996|[INITIALIZER][initSingleLedger] [GroupId]:  1
+info|2019-10-25 19:58:32.695012|[g:1][LEDGER]LedgerConstructor,configPath=conf/group.1.genesis,baseDir=data//group1
+info|2019-10-25 19:58:32.695016|[g:1][LEDGER][initGenesisConfig]initConsensusConfig/initDBConfig/initTxConfig,configFile=conf/group.1.genesis
+info|2019-10-25 19:58:32.695116|[g:1][LEDGER][initConsensusConfig],it.first=e2ae18a81b2075482705519140d4c3c762f05e73b7a35c074a62bb05a70d7cc7f16e4a9592a882224f1907137c31a3018bbde4bd3952eccc15b98e0dd313949a
+info|2019-10-25 19:58:32.695125|[g:1][LEDGER][initConsensusConfig],it.first=5547b677eda5aa47b2be42346f39cc3bdb2437869fb99eacfb00683ef4fffbca45b36c3380c30968356a264cfd10abee46f560a7679d3a2fc5559e38b2e84fb4
+info|2019-10-25 19:58:32.695133|[g:1][LEDGER][initConsensusConfig],it.first=94840b0716be07c78d517f01fcf5e9f636c1715d56cf5c96fc288b920a28105575aea6c4081d3952e2714ae429211afb2539db8178d0f05bd5b6e1ac0ad595b3
+info|2019-10-25 19:58:32.695145|[g:1][LEDGER][initConsensusConfig],it.first=9e66740c463c5d5b5b5d93be3f1fca5d743f603620e34f3f2b29886e74da17536cf5bf8acd6cb9da47aafd1b9151466fc380fe2d9b96ff24855f074c0d0af26f
+info|2019-10-25 19:58:32.695169|[g:1][LEDGER][initIniConfig]initTxPoolConfig/initSyncConfig/initTxExecuteConfig,configFile=conf/group.1.ini
+info|2019-10-25 19:58:32.623585|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-10-25 19:58:32.702856|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+info|2019-10-25 19:58:32.702880|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30302
+info|2019-10-25 19:58:32.702901|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30303
+info|2019-10-25 19:58:32.702920|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30400
+info|2019-10-25 19:58:32.703011|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:60438
+info|2019-10-25 19:58:32.703031|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30400
+info|2019-10-25 19:58:32.718740|[g:1][LEDGER][initLedger][DBInitializer]
+info|2019-10-25 19:58:32.718765|[g:1][DBINITIALIZER] [initRocksDBStorage]
+info|2019-10-25 19:58:32.741697|[g:1][ROCKSDB]open rocksDB handler
+info|2019-10-25 19:58:32.756042|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:60446
+info|2019-10-25 19:58:32.760689|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30400
+info|2019-10-25 19:58:32.762191|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:60454
+info|2019-10-25 19:58:32.771179|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30400
+info|2019-10-25 19:58:32.774116|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:60462
+info|2019-10-25 19:58:32.775312|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30400
+info|2019-10-25 19:58:32.778706|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:60470
+info|2019-10-25 19:58:32.796685|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30400
+info|2019-10-25 19:58:32.872885|[g:1][g:0][STORAGE][CachedStorage]Init flushStorage thread
+info|2019-10-25 19:58:32.927755|[NETWORK][Host]startPeerSession, From=127.0.0.1:60446,nodeID=e2ae18a8...
+info|2019-10-25 19:58:32.931698|[P2P][Service] Connection established,nodeID=e2ae18a8...,endpoint=127.0.0.1:60446
+info|2019-10-25 19:58:32.936668|[g:1][BLOCKCHAIN][#checkAndBuildGenesisBlock]Already have the 0th block, 0th groupMark is equal to file groupMark.
+info|2019-10-25 19:58:32.936840|[g:1][CONSENSUS][PBFT]Register handler for PBFTEngine
+info|2019-10-25 19:58:32.936851|[g:1][CONSENSUS][PBFT],minBlockGenerationTime=500
+info|2019-10-25 19:58:32.936863|[LedgerInitializer init group succ],groupID=1
+info|2019-10-25 19:58:32.937022|[INITIALIZER][RPCInitializer]JsonrpcHttpServer started.
+info|2019-10-25 19:58:32.937029|[g:1][LEDGER]startAll...
+info|2019-10-25 19:58:32.955849|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=0,sealerIdx=0,hash=8500055e...,next=1,tx=0,nodeIdx=65535
+info|2019-10-25 19:58:32.958218|[NETWORK][Host]startPeerSession, From=127.0.0.1:30300,nodeID=e2ae18a8...
+info|2019-10-25 19:58:32.965851|[P2P][Service] Connection established,nodeID=94840b07...,endpoint=127.0.0.1:60454
+info|2019-10-25 19:58:32.975553|[NETWORK][Host]startPeerSession, From=127.0.0.1:60454,nodeID=94840b07...
+info|2019-10-25 19:58:32.975644|[P2P][Service] Connection established,nodeID=5547b677...,endpoint=127.0.0.1:60438
+info|2019-10-25 19:58:32.975662|[NETWORK][Host]startPeerSession, From=127.0.0.1:60438,nodeID=5547b677...
+info|2019-10-25 19:58:32.975729|[NETWORK][Host]startPeerSession, From=127.0.0.1:60462,nodeID=195d3f2d...
+info|2019-10-25 19:58:32.975900|[P2P][Service] Connection established,nodeID=9e66740c...,endpoint=127.0.0.1:30303
+info|2019-10-25 19:58:32.975918|[NETWORK][Host]startPeerSession, From=127.0.0.1:30303,nodeID=9e66740c...
+info|2019-10-25 19:58:32.978047|[NETWORK][Host]startPeerSession, From=127.0.0.1:30400,nodeID=195d3f2d...
+info|2019-10-25 19:58:32.978116|[NETWORK][Host]startPeerSession, From=127.0.0.1:60470,nodeID=9e66740c...
+warning|2019-10-25 19:58:32.978185|[NETWORK][Session]doRead error,endpoint=127.0.0.1:60446,message=stream truncated
+info|2019-10-25 19:58:32.978200|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:60446
+warning|2019-10-25 19:58:32.978214|[P2P][Service] disconnect error P2PSession,nodeID=e2ae18a8...,endpoint=127.0.0.1:60446,errorCode=3,what=Disconnect
+warning|2019-10-25 19:58:32.978221|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2019-10-25 19:58:32.978243|[NETWORK][Session][drop] closing remote 0.0.0.0:0,reason=Low-level TCP communication error.,endpoint=127.0.0.1:60446
+info|2019-10-25 19:58:32.991011|[NETWORK][Host]startPeerSession, From=127.0.0.1:30302,nodeID=94840b07...
+warning|2019-10-25 19:58:32.991067|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+info|2019-10-25 19:58:32.991913|[NETWORK][Host]startPeerSession, From=127.0.0.1:30301,nodeID=5547b677...
+info|2019-10-25 19:58:32.997866|[g:1][CONSENSUS][PBFT][PBFT init env successfully]
+info|2019-10-25 19:58:32.997874|[g:1][CONSENSUS][ConsensusEngine][Start ConsensusEngineBase]
+info|2019-10-25 19:58:32.998703|[g:1][CONSENSUS][PBFT][Start PBFTEngine...]
+info|2019-10-25 19:58:32.998710|[g:1][CONSENSUS][SEALER][Start sealer module]
+info|2019-10-25 19:58:32.998785|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=0,sealerIdx=0,hash=8500055e...,next=1,tx=0,nodeIdx=65535
+info|2019-10-25 19:58:33.000203|[g:1][EVENT][EventLogFilterManager]start,m_maxBlockRange=0,m_maxBlockPerLoopFilter=3
+info|2019-10-25 19:58:42.625175|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:60480
+info|2019-10-25 19:58:42.625208|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30400
+info|2019-10-25 19:58:42.625236|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-10-25 19:58:42.625266|[P2P][Service] heartBeat,connected count=3
+info|2019-10-25 19:58:42.627446|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-10-25 19:58:42.645790|[P2P][Service] Connection established,nodeID=e2ae18a8...,endpoint=127.0.0.1:60480
+info|2019-10-25 19:58:42.645818|[NETWORK][Host]startPeerSession, From=127.0.0.1:60480,nodeID=e2ae18a8...
+info|2019-10-25 19:58:42.659797|[NETWORK][Host]startPeerSession, From=127.0.0.1:30300,nodeID=e2ae18a8...
+info|2019-10-25 19:58:52.625594|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 19:59:02.626053|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 19:59:12.626449|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 19:59:22.626567|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 19:59:32.627049|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 19:59:32.660235|[NETWORK][Session]Received topic: [1	_block_notify_1] from e2ae18a81b2075482705519140d4c3c762f05e73b7a35c074a62bb05a70d7cc7f16e4a9592a882224f1907137c31a3018bbde4bd3952eccc15b98e0dd313949a
+info|2019-10-25 19:59:42.627529|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 19:59:52.627775|[P2P][Service] heartBeat,connected count=4

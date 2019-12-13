@@ -134,7 +134,8 @@ public class AssetClient {
 			String contractAddress = loadAssetAddr();
 
 			Asset asset = Asset.load(contractAddress, web3j, credentials, new StaticGasProvider(gasPrice, gasLimit));
-			TransactionReceipt receipt =asset.Settlement().send();
+			TransactionReceipt receipt = asset.settlement().send();
+			List<SettlementEventEventResponse> response = asset.getSettlementEventEvents(receipt);
 			System.out.printf("Settlement asset account success\n");
 		} catch (Exception e) {
 
@@ -221,7 +222,7 @@ public class AssetClient {
 		case "deploy":
 			client.deployAssetAndRecordAddr();
 			break;
-		case "Settlement":
+		case "settlement":
 			client.SettlementAssetAmount();
 			break;
 		case "query":
